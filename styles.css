@@ -1,0 +1,54 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.15;
+    background-color: #7858A6;
+    overflow: hidden;
+    color: whitesmoke;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+}
+
+body {
+    margin: 0;
+    display: block;
+}
+
+main, #intro-holder {
+    display: flex;
+    padding: 5vw;
+}
+
+#intro{
+    display: block;
+    padding: 1em;
+    border: #371B58 solid 5px;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+h2{
+    font-weight: 500;
+}
+
+h1, h2{
+    color:#371B58;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+p,li {
+    color: #4C3575;
+    margin: 0;
+    font-weight: 400;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#contents{
+    width: 100vw;
+}
